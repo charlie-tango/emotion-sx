@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "declaration": true,
+    "declarationDir": "./dist",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "outDir": "./dist",
+    "jsx": "react",
+    "isolatedModules": true,
+    "importHelpers": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "lib", "dist", "src/__tests__/**/*", "**/*.story.tsx", "src/stories/**", "**/*.test.*"]
+}

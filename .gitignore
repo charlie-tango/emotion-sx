@@ -1,0 +1,15 @@
+.vscode
+.idea
+.tern
+.cache
+.github
+node_modules
+lib/
+build/
+dist/
+coverage/
+.DS_store
+.eslintcache
+.stylelintcache
+.tmp
+*.log
