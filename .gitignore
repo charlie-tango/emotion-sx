@@ -2,7 +2,6 @@
 .idea
 .tern
 .cache
-.github
 node_modules
 lib/
 build/
