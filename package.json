@@ -1,6 +1,6 @@
 {
   "name": "@charlietango/emotion-sx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JSX pragma for Emotion SX prop",
   "author": "Charlie Tango",
   "license": "MIT",
