@@ -4,9 +4,12 @@
   "description": "JSX pragma for Emotion SX prop",
   "author": "Charlie Tango",
   "license": "MIT",
+  "source": "src/jsx.ts",
   "main": "dist/jsx.js",
+  "module": "dist/jsx.esm.js",
+  "esmodule": "dist/jsx.modern.js",
   "scripts": {
-    "build": "tsc"
+    "build": "microbundle -f es,cjs,modern --no-compress"
   },
   "peerDependencies": {
     "@emotion/react": "*",
@@ -17,6 +20,7 @@
     "@styled-system/css": "^5.1.5",
     "@types/react": "^16.9.46",
     "@types/styled-system__css": "^5.0.13",
+    "microbundle": "^0.12.3",
     "prettier": "^2.1.0",
     "prettier-plugin-pkg": "^0.8.0",
     "react": "^16.13.1",
